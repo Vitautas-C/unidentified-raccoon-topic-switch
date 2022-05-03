@@ -1,0 +1,365 @@
+.page {
+  margin: 0;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.theme-button {
+  position: relative;
+  position: fixed;
+  margin: auto 0;
+  padding: 7px 16px 7px 36px;
+  font-size: 12px;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.theme-button::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  top: 7px;
+  left: 12px;
+}
+
+.container {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-header {
+  padding: 32px 0 32px;
+}
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+  text-align: right;
+}
+
+.page-header a {
+  margin-left: 56px;
+  margin-right: 28px;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.header-email {
+  padding-left: 30px;
+}
+
+.header-phone {
+  padding-left: 25px;
+}
+
+.hero-image .container {
+  max-width: 1408px;
+  text-align: center;
+}
+
+.heading {
+  line-height: 96px;
+}
+
+.hero-image p {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.intro {
+  margin: 0 0 120px;
+}
+
+.subheading {
+  margin: 0 0 56px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.user-image {
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.intro h3,
+.portfolio h3 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.intro p {
+  margin: 0 0 32px;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list dt {
+  padding-left: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.skill-html {
+  background-image: url("img/icon-html.svg");
+}
+
+.skill-css {
+  background-image: url("img/icon-css.svg");
+}
+
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  border-radius: 8px;
+}
+
+.level div {
+  margin: 1px;
+  height: 12px;
+  border-radius: 6px;
+}
+
+.portfolio {
+  margin: 0 0 120px;
+}
+
+.projects {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.projects li {
+  margin: 0 0 80px;
+}
+
+.project-image {
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.projects p {
+  margin: 0 0 24px;
+}
+
+.button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.page-footer {
+  padding: 40px 0;
+}
+
+.page-footer a {
+  margin-left: 56px;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-email {
+  padding-left: 30px;
+}
+
+.footer-phone {
+  padding-left: 25px;
+}
+
+/* Светлая тема */
+
+.page.light-theme {
+  color: #222222;
+  background-color: #f2f4f6;
+  background-image: url("img/hero-bg_light.jpg");
+}
+
+.light-theme .page-header {
+  margin: 0 0 160px;
+}
+
+.light-theme .page-header a {
+  color: #288be6;
+}
+
+.light-theme .header-email {
+  background-image: url("img/icon-email-header.svg");
+}
+
+.light-theme .header-phone {
+  background-image: url("img/icon-phone-header.svg");
+}
+
+.light-theme .theme-button {
+  color: #6653d9;
+  border: 1px solid #6653d9;
+}
+
+.light-theme .theme-button::before {
+  background-image: url("img/moon-normal.svg");
+}
+
+.light-theme .theme-button:focus,
+.light-theme .theme-button:hover {
+  color: #ffffff;
+  background-color: #6653d9;
+}
+
+.light-theme .theme-button:focus::before,
+.light-theme .theme-button:hover::before {
+  background-image: url("img/moon-hover.svg");
+}
+
+.light-theme .hero-image {
+  margin-bottom: 620px;
+}
+
+.light-theme .heading {
+  margin: 0 0 16px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 88px;
+  font-weight: 400;
+}
+
+.light-theme .subheading {
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.light-theme .level {
+  background-color: #ffffff;
+  border: 1px solid #86c3fa;
+}
+
+.light-theme .level div {
+  background-color: #288be6;
+}
+
+.light-theme .button {
+  background-color: #288be6;
+}
+
+.light-theme .page-footer {
+  background-color: #00417d;
+  color: #ffffff;
+}
+
+.light-theme .page-footer a {
+  color: inherit;
+}
+
+.light-theme .footer-email {
+  background-image: url("img/icon-email-footer.svg");
+}
+
+.light-theme .footer-phone {
+  background-image: url("img/icon-phone-footer.svg");
+}
+
+/* Тёмная тема */
+
+.page.dark-theme {
+  color: #f2f2f2;
+  background-color: #080208;
+  background-image: url("img/hero-bg_dark.jpg");
+}
+
+.dark-theme .page-header {
+  margin: 0 0 180px;
+}
+
+.dark-theme .page-header a {
+  color: #fea18d;
+}
+
+.dark-theme .header-email {
+  background-image: url("img/icon-email.svg");
+}
+
+.dark-theme .header-phone {
+  background-image: url("img/icon-phone.svg");
+}
+
+.dark-theme .theme-button {
+  color: #9484f2;
+  border: 1px solid #9484f2;
+}
+
+.dark-theme .theme-button::before {
+  background-image: url("img/sun-normal.svg");
+}
+
+.dark-theme .theme-button:focus,
+.dark-theme .theme-button:hover {
+  color: #17161a;
+  background-color: #9484f2;
+}
+
+.dark-theme .theme-button:focus::before,
+.dark-theme .theme-button:hover::before {
+  background-image: url("img/sun-hover.svg");
+}
+
+.dark-theme .hero-image {
+  margin-bottom: 480px;
+}
+
+.dark-theme .heading {
+  margin: 0 0 24px;
+  font-size: 80px;
+
+}
+
+.dark-theme .subheading {
+  font-size: 56px;
+}
+
+.dark-theme .level {
+  background-color: #080208;
+  border: 1px solid #712073;
+}
+
+.dark-theme .level div {
+  background-color: #fea18d;
+}
+
+.dark-theme .button {
+  background-color: #712073;
+}
+
+.dark-theme .page-footer {
+  background-color: #260c26;
+}
+
+.dark-theme .page-footer a {
+  color: #fea18d;
+}
+
+.dark-theme .footer-email {
+  background-image: url("img/icon-email.svg");
+}
+
+.dark-theme .footer-phone {
+  background-image: url("img/icon-phone.svg");
+}
